@@ -19,3 +19,4 @@ Screenshot from the app user interface
 
 
 illustartion 3D bought from: https://icons8.com/
+App idea from: gheorghedar
