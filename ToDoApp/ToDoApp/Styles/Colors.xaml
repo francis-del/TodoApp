@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary  xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDoApp.Styles.Colors">
+    <Color x:Key="PrimaryColor">#05668D</Color>
+    <Color x:Key="AccentColor">#FF595E</Color>
+
+    <Color x:Key="FailColor">#F21B3F</Color>
+    <Color x:Key="SuccessColor">#00AF49</Color>
+
+    <!--App Theme Light-->
+    <Color x:Key="LightPrimaryTextColor">#FFFF</Color>
+    <Color x:Key="LightSecondaryTextColor">#FFFFFF</Color>
+    <Color x:Key="LightDisabledTextColor">#BDBDBD</Color>
+    <Color x:Key="LightPlaceholderTextColor">#FFFF</Color>
+
+    <Color x:Key="LightButtonColor">#FF5D73</Color>
+    <Color x:Key="LightButtonTextColor">#F1E3D3</Color>
+
+    <Color x:Key="LightEntryBackgroundColor">#F7FFF7</Color>
+    <Color x:Key="LightEntryBorderColor">#E1E1E1</Color>
+
+    <Color x:Key="LightPageBackgroundColor">#00BBF9</Color>
+    <Color x:Key="LightCardBackgroundColor">#FFD6FF</Color>
+    <Color x:Key="LightCardDoneBackgroundColor">#003249</Color>
+    <Color x:Key="LightCardDisabledBackgroundColor">#FF5D73</Color>
+    <Color x:Key="LightCardUnselectedBackgroundColor">#FFEBC6</Color>
+    <Color x:Key="LightCardBorderColor">#5E503F</Color>
+
+    <Color x:Key="LightTransparentBackgroundColor">#5E503F</Color>
+
+    <!--App Theme Dark-->
+    <Color x:Key="DarkPrimaryTextColor">#F5F5F5</Color>
+    <Color x:Key="DarkSecondaryTextColor">#8E9090</Color>
+    <Color x:Key="DarkDisabledTextColor">#757575</Color>
+    <Color x:Key="DarkPlaceholderTextColor">#757575</Color>
+
+    <Color x:Key="DarkButtonColor">#F4F3EE</Color>
+    <Color x:Key="DarkButtonTextColor">#BCB8B1</Color>
+
+    <Color x:Key="DarkEntryBackgroundColor">#F6F4D2</Color>
+    <Color x:Key="DarkEntryBorderColor">#CBF3F0</Color>
+
+    <Color x:Key="DarkPageBackgroundColor">#ACBDBA</Color>
+    <Color x:Key="DarkCardBackgroundColor">#E4E6C3</Color>
+    <Color x:Key="DarkCardDoneBackgroundColor">#CBF3F0</Color>
+    <Color x:Key="DarkCardDisabledBackgroundColor">#D6CFCB</Color>
+    <Color x:Key="DarkCardUnselectedBackgroundColor">#565264</Color>
+    <Color x:Key="DarkCardBorderColor">#E4E6C3</Color>
+
+    <Color x:Key="DarkTransparentBackgroundColor">#403D39</Color>
+</ResourceDictionary>
