@@ -8,3 +8,8 @@ list everything that we have to do, with the most important tasks at the top of 
 and the least important tasks at the bottom. It is helpful in planning our daily schedules.
 
 We can add more tasks at any time and delete a task that is completed.
+
+
+This app was developed using xamarin.forms MVVM Archeticture pattern.
+
+
