@@ -2,7 +2,7 @@
 using Prism.Regions;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
-using ToDoApp.Helpers;
+using ToDoApp.NotificationHelpers;
 using ToDoApp.Models;
 using ToDoApp.Views.Templates.AddEditItem;
 using Xamarin.Forms;

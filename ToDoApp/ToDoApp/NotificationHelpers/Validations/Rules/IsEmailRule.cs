@@ -1,4 +1,4 @@
-﻿namespace ToDoApp.Helpers.Validations.Rules
+﻿namespace ToDoApp.NotificationHelpers.Validations.Rules
 {
     class IsEmailRule<T>: IValidationRule<T>
     {

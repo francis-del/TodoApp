@@ -5,12 +5,12 @@ using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Windows.Input;
-using ToDoApp.Auth;
-using ToDoApp.Helpers;
-using ToDoApp.Helpers.Validations;
-using ToDoApp.Helpers.Validations.Rules;
+using ToDoApp.FireAuth;
+using ToDoApp.NotificationHelpers;
+using ToDoApp.NotificationHelpers.Validations;
+using ToDoApp.NotificationHelpers.Validations.Rules;
 using ToDoApp.Models;
-using ToDoApp.Repositories.FirestoreRepository;
+using ToDoApp.Repo.FirestoreRepository;
 using ToDoApp.Views.Dialogs;
 using Xamarin.Forms;
 

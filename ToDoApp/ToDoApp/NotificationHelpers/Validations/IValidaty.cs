@@ -1,4 +1,4 @@
-﻿namespace ToDoApp.Helpers.Validations
+﻿namespace ToDoApp.NotificationHelpers.Validations
 {
     public interface IValidaty
     {

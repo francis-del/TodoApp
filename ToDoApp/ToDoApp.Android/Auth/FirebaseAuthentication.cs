@@ -3,7 +3,7 @@ using Firebase.Auth;
 using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
-using ToDoApp.Auth;
+using ToDoApp.FireAuth;
 using ToDoApp.Models;
 
 namespace ToDoApp.Droid.Auth

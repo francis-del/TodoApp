@@ -4,7 +4,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using Xamarin.Forms;
 
-namespace ToDoApp.Helpers.Extensions
+namespace ToDoApp.NotificationHelpers.Extensions
 {
     public abstract class ExtendedBindableObject : BindableObject
     {

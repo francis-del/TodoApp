@@ -1,9 +1,9 @@
 ﻿using Prism;
 using Prism.DryIoc;
 using Prism.Ioc;
-using ToDoApp.Auth;
+using ToDoApp.FireAuth;
 using ToDoApp.Models;
-using ToDoApp.Repositories.FirestoreRepository;
+using ToDoApp.Repo.FirestoreRepository;
 using ToDoApp.Services.DateService;
 using ToDoApp.ViewModels;
 using ToDoApp.ViewModels.Dialogs;

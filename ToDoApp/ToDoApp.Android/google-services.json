@@ -8,43 +8,6 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:289465467664:android:6a36991b9f946ffb049b95",
-        "android_client_info": {
-          "package_name": "com.gheorghedarle.todoapp"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "289465467664-6t3nicttja7c57j67k7ettmdmlkgntc8.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyC1IHuiycWP0U8EDT7knu-e796l7-GMRvA"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "289465467664-6t3nicttja7c57j67k7ettmdmlkgntc8.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "289465467664-hano3lkfk452c2mkmudrorn4nhhu0dmr.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.randydev.todoapp",
-                "app_store_id": "3334353"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
         "mobilesdk_app_id": "1:289465467664:android:2501f62a249344e8049b95",
         "android_client_info": {
           "package_name": "com.randy.todoapp"
@@ -69,11 +32,11 @@
               "client_type": 3
             },
             {
-              "client_id": "289465467664-hano3lkfk452c2mkmudrorn4nhhu0dmr.apps.googleusercontent.com",
+              "client_id": "289465467664-0hpffbm9iecg26dhgr4l23dkvu5qkb5f.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.randydev.todoapp",
-                "app_store_id": "3334353"
+                "bundle_id": "com.randy.todoapp",
+                "app_store_id": "454653556543"
               }
             }
           ]

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using ToDoApp.Helpers.Extensions;
+using ToDoApp.NotificationHelpers.Extensions;
 
-namespace ToDoApp.Helpers.Validations
+namespace ToDoApp.NotificationHelpers.Validations
 {
     public class ValidatableObject<T> : ExtendedBindableObject, IValidaty
     {

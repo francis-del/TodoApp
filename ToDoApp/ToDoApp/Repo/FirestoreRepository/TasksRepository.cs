@@ -4,11 +4,11 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using ToDoApp.Models;
 
-namespace ToDoApp.Repositories.FirestoreRepository
+namespace ToDoApp.Repo.FirestoreRepository
 {
-    public class ListsRepository : IFirestoreRepository<ListModel>
+    public class TasksRepository : IFirestoreRepository<TaskModel>
     {
-        public ListModel Get()
+        public TaskModel Get()
         {
             throw new NotImplementedException();
         }
@@ -16,9 +16,9 @@ namespace ToDoApp.Repositories.FirestoreRepository
         public IQuery GetAll(string userId)
         {
             var query = CrossCloudFirestore.Current
-                    .Instance
-                    .Collection("lists")
-                    .WhereEqualsTo("userId", userId);
+                .Instance
+                .Collection("tasks")
+                .WhereEqualsTo("userId", userId);
 
             return query;
         }
@@ -27,7 +27,7 @@ namespace ToDoApp.Repositories.FirestoreRepository
         {
             var query = CrossCloudFirestore.Current
                 .Instance
-                .Collection("lists")
+                .Collection("tasks")
                 .WhereEqualsTo(field, value)
                 .WhereEqualsTo("userId", userId);
             return query;
@@ -37,7 +37,7 @@ namespace ToDoApp.Repositories.FirestoreRepository
         {
             var query = CrossCloudFirestore.Current
                 .Instance
-                .Collection("lists")
+                .Collection("tasks")
                 .WhereEqualsTo(field1, value1)
                 .WhereEqualsTo(field2, value2)
                 .WhereEqualsTo("userId", userId);
@@ -48,7 +48,7 @@ namespace ToDoApp.Repositories.FirestoreRepository
         {
             var query = CrossCloudFirestore.Current
                 .Instance
-                .Collection("lists")
+                .Collection("tasks")
                 .WhereEqualsTo(field1, value1)
                 .WhereEqualsTo(field2, value2)
                 .WhereEqualsTo(field3, value3)
@@ -56,13 +56,13 @@ namespace ToDoApp.Repositories.FirestoreRepository
             return query;
         }
 
-        public async Task<bool> Update(ListModel model)
+        public async Task<bool> Update(TaskModel model)
         {
             try
             {
                 await CrossCloudFirestore.Current
                         .Instance
-                        .Collection("lists")
+                        .Collection("tasks")
                         .Document(model.Id)
                         .UpdateAsync(model);
                 return true;
@@ -74,13 +74,13 @@ namespace ToDoApp.Repositories.FirestoreRepository
             }
         }
 
-        public async Task<bool> Add(ListModel model)
+        public async Task<bool> Add(TaskModel model)
         {
             try
             {
                 await CrossCloudFirestore.Current
                         .Instance
-                        .Collection("lists")
+                        .Collection("tasks")
                         .AddAsync(model);
                 return true;
             }
@@ -91,13 +91,13 @@ namespace ToDoApp.Repositories.FirestoreRepository
             }
         }
 
-        public async Task<bool> Delete(ListModel model)
+        public async Task<bool> Delete(TaskModel model)
         {
             try
             {
                 await CrossCloudFirestore.Current
                         .Instance
-                        .Collection("lists")
+                        .Collection("tasks")
                         .Document(model.Id)
                         .DeleteAsync();
                 return true;

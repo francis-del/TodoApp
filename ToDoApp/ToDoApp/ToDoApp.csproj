@@ -12,6 +12,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DependencyInjectionContainer.cs" />
+    <Compile Remove="IServiceProvider.cs" />
+    <Compile Remove="Models\AuthNetwork.cs" />
+    <Compile Remove="Models\FacebookProfile.cs" />
+    <Compile Remove="Models\InstagramUser.cs" />
+    <Compile Remove="Models\NetworkAuthData.cs" />
+    <Compile Remove="Views\SocialLoginPage.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\SocialLoginPage.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="local.settings.json" />
     <None Remove="Resources\Fonts\Cairo-Bold.ttf" />
     <None Remove="Resources\Fonts\Cairo-Light.ttf" />
@@ -49,6 +63,8 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Plugin.CloudFirestore" Version="4.1.0" />
     <PackageReference Include="Prism.DryIoc.Forms" Version="8.1.97" />
     <PackageReference Include="Prism.Forms" Version="8.1.97" />
@@ -56,9 +72,10 @@
     <PackageReference Include="PropertyChanged.Fody" Version="3.4.0" />
     <PackageReference Include="ReactiveUI" Version="17.1.50" />
     <PackageReference Include="ReactiveUI.XamForms" Version="17.1.50" />
+    <PackageReference Include="Refit" Version="6.3.2" />
     <PackageReference Include="SharpAdbClient" Version="2.3.23" />
-    <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.0" />
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2337" />
+    <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.1" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2401" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.1" />
   </ItemGroup>
 

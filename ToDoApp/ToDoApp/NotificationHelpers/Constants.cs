@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using ToDoApp.Models;
 
-namespace ToDoApp.Helpers
+namespace ToDoApp.NotificationHelpers
 {
     public static class Constants
     {

@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using ToDoApp.Models;
 
-namespace ToDoApp.Auth
+namespace ToDoApp.FireAuth
 {
     public interface IFirebaseAuthentication
     {
