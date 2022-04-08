@@ -44,7 +44,7 @@
     <Color x:Key="DarkEntryBackgroundColor">#F6F4D2</Color>
     <Color x:Key="DarkEntryBorderColor">#CBF3F0</Color>
 
-    <Color x:Key="DarkPageBackgroundColor">#444140</Color>
+    <Color x:Key="DarkPageBackgroundColor">#444</Color>
     <Color x:Key="DarkCardBackgroundColor">#E4E6C3</Color>
     <Color x:Key="DarkCardDoneBackgroundColor">#CBF3F0</Color>
     <Color x:Key="DarkCardDisabledBackgroundColor">#D6CFCB</Color>
