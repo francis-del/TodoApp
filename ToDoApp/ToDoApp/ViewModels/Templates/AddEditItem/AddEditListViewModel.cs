@@ -10,7 +10,7 @@ using ToDoApp.NotificationHelpers;
 using ToDoApp.NotificationHelpers.Validations;
 using ToDoApp.NotificationHelpers.Validations.Rules;
 using ToDoApp.Models;
-using ToDoApp.Repo.FirestoreRepository;
+using ToDoApp.FirestoreRepository;
 using ToDoApp.Views.Dialogs;
 using Xamarin.Forms;
 

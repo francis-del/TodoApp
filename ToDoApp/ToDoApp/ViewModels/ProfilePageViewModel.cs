@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using ToDoApp.FireAuth;
 using ToDoApp.Models;
-using ToDoApp.Repo.FirestoreRepository;
+using ToDoApp.FirestoreRepository;
 using ToDoApp.Views;
 using Xamarin.CommunityToolkit.UI.Views;
 using Xamarin.Essentials;

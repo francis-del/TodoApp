@@ -1,7 +1,7 @@
 ﻿using Plugin.CloudFirestore;
 using System.Threading.Tasks;
 
-namespace ToDoApp.Repo.FirestoreRepository
+namespace ToDoApp.FirestoreRepository
 {
     public interface IFirestoreRepository<T>
     {

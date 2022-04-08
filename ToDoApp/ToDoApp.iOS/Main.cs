@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Code Idea adapted from Darle Gheorghe:
+//(Source: https://github.com/gheorghedarle/Xamarin-ToDoApp retrieved in Feburary 10, 2022.)
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 

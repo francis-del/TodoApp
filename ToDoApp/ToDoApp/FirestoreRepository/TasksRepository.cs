@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using ToDoApp.Models;
 
-namespace ToDoApp.Repo.FirestoreRepository
+namespace ToDoApp.FirestoreRepository
 {
     public class TasksRepository : IFirestoreRepository<TaskModel>
     {

@@ -1,4 +1,8 @@
-﻿using Android.App;
+﻿// Code Idea adapted from Darle Gheorghe:
+
+//(Source: https://github.com/gheorghedarle/Xamarin-ToDoApp retrieved in Feburary 10, 2022.)
+
+using Android.App;
 using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;

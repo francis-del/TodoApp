@@ -1,9 +1,13 @@
-﻿using Prism;
+﻿// Code Idea adapted from Darle Gheorghe:
+
+//(Source: https://github.com/gheorghedarle/Xamarin-ToDoApp retrieved in Feburary 10, 2022.)
+
+using Prism;
 using Prism.DryIoc;
 using Prism.Ioc;
 using ToDoApp.FireAuth;
 using ToDoApp.Models;
-using ToDoApp.Repo.FirestoreRepository;
+using ToDoApp.FirestoreRepository;
 using ToDoApp.Services.DateService;
 using ToDoApp.ViewModels;
 using ToDoApp.ViewModels.Dialogs;

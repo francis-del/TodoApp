@@ -9,7 +9,7 @@ using System.Windows.Input;
 using ToDoApp.FireAuth;
 using ToDoApp.NotificationHelpers;
 using ToDoApp.Models;
-using ToDoApp.Repo.FirestoreRepository;
+using ToDoApp.FirestoreRepository;
 using Xamarin.CommunityToolkit.UI.Views;
 using Xamarin.Essentials;
 using Xamarin.Forms;
