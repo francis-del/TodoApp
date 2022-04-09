@@ -14,19 +14,19 @@ namespace ToDoApp.NotificationHelpers
         };
 
         public static List<string> ListColorList = new List<string>() {
-            "#F9371C",
-            "#F97C1C",
-            "#F9C81C",
-            "#41D0B6",
-            "#2CADF6",
-            "#6562FC"
+            "#F07167",
+            "#007200",
+            "#335C67",
+            "#FF9100",
+            "#FF7D00",
+            "#E71D36"
         };
 
         public static ListModel InboxList = new ListModel() {
             Id = "zlDZNn3sNmyirSNs3mRY",
             Name = "Inbox",
             UserId = "Default",
-            Color = "#F9371C"
+            Color = "#F07167"
         };
 
         public static ListModel AllLists = new ListModel()
@@ -34,7 +34,7 @@ namespace ToDoApp.NotificationHelpers
             Id = "alllist",
             Name = "All lists",
             UserId = "Default",
-            Color = "#F9371C",
+            Color = "#007200",
         };
 
         public static TaskModel DefaultTask = new TaskModel()
@@ -48,13 +48,13 @@ namespace ToDoApp.NotificationHelpers
         public static ListModel DefaultList = new ListModel()
         {
             Name = "",
-            Color = "#F9371C",
+            Color = "#FF7D00",
         };
 
         public static class Errors
         {
-            public static string GeneralError = "Something went wrong! Please wait a moment and try again.";
-            public static string WrongUserOrPasswordError = "The email or password is incorrect";
+            public static string GeneralError = "Oops!Something went wrong, Please hang on a moment and try again.";
+            public static string WrongUserOrPasswordError = "Incorrect email and password, try again or Sign up";
         }
     }
 }

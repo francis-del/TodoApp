@@ -74,7 +74,7 @@
                         </VisualStateGroup>
                     </VisualStateManager.VisualStateGroups>
                     <Label
-                        Text="Task"
+                        Text="Your Task"
                         FontSize="{StaticResource Body1FontSize}"
                         HorizontalTextAlignment="Center">
                         <VisualStateManager.VisualStateGroups>
@@ -137,7 +137,7 @@
                         </VisualStateGroup>
                     </VisualStateManager.VisualStateGroups>
                     <Label
-                        Text="List"
+                        Text="Your List"
                         FontSize="{StaticResource Body1FontSize}"
                         HorizontalTextAlignment="Center">
                         <VisualStateManager.VisualStateGroups>
