@@ -12,4 +12,3 @@ This app was developed using xamarin.forms MVVM Archeticture pattern and Firebas
 
 
 illustartion 3D bought from: https://icons8.com/
-App idea from: gheorghedar
